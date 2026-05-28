@@ -1,0 +1,22 @@
+name: Engineering task
+description: Track implementation work
+title: "[Task]: "
+labels: [task]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What is the concrete engineering outcome?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: In scope / out of scope.
+  - type: textarea
+    id: modules
+    attributes:
+      label: Modules impacted
+      description: e.g. inference, routing, memory, multimodal, hardware.
